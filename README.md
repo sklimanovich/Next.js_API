@@ -36,3 +36,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## MySQL Database Structure
+
+Table actors
+
+actor_id int primary key auto_increment,
+first_name varchar(50),
+last_name varchar(50),
+date_of_birth varchar(100)
+
+Table movies
+
+movie_id int primary key auto_increment,
+movie_title varchar(200),
+movie_genre varchar(50),
+director varchar(200),
+release_date varchar(50)

@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn{
+    @apply rounded-full py-2 px-3 uppercase cursor-pointer text-lg font-bold text-white bg-green-600 
+    hover:bg-green-400 transition ease-out duration-500;
+}
